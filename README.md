@@ -2,7 +2,7 @@
 ## Mission ##
 Analyse how the structure of a network affects its prediction accuracy and how it depends on the size of training data
 ## Requirements ##
--Test at least 10 networks that have different structures.  
+-Test at least 10 networks that have different structures on MNIST dataset.  
 -Train each modelon 1,000 and 50,000 samples until convergence, respectively.    
 -Test each model on 10000 test sampls to get mean prdiction accuracy.
 ## Dependencies ##
