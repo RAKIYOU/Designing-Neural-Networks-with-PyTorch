@@ -12,7 +12,7 @@ Analyse how the structure of a network affects its prediction accuracy and how i
 ## Results ##
 |Nets            |epochs|1000 samples|epochs|50000 samples|
 |:--------------:|:----:|:----------:|:----:|:-----------:|
-|net1:2FC_512    |100   |80.48%      |25    |97.71        | 
+|net1:2FC_512    |100   |80.48%      |25    |97.71%       | 
 |net2:3FC_128    |100   |77.41%      |25    |88.00%       |
 |net3:LeNet      |100   |93.01%      |25    |91.53%       |
 |net4:C3_2F      |100   |93.12%      |25    |99.19%       |
