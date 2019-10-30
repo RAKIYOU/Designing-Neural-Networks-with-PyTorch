@@ -2,7 +2,7 @@
 ## Mission ##
 Analyse how the structure of a network affects its prediction accuracy and how it depends on the size of training data
 ## requirements ##
--Test at least 10 networks (models) that have different structures.
+-Test at least 10 networks (models) that have different structures.  
 -Train each modelon 1,000 and 50,000 samples until convergence, respectively.    
 -Test each model on 10000 test sampls to get mean prdiction accuracy.
 ## Dependencies ##
