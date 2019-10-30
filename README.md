@@ -2,7 +2,7 @@
 ## Mission ##
 Analyse how the structure of a network affects its prediction accuracy and how it depends on the size of training data
 ## Requirements ##
--Test at least 10 networks (models) that have different structures.  
+-Test at least 10 networks that have different structures.  
 -Train each modelon 1,000 and 50,000 samples until convergence, respectively.    
 -Test each model on 10000 test sampls to get mean prdiction accuracy.
 ## Dependencies ##
@@ -20,5 +20,6 @@ Analyse how the structure of a network affects its prediction accuracy and how i
 |net6:CNN3       |20    |88.00%      |5     |98.19%       |
 |net7:ResNet18   |50    |93.62%      |10    |99.24%       |
 |net8:Alexnet    |100   |95.31%      |25    |99.49%       |
-|net9:MobleNet   |20    |91.58%      |5     |99.24%       |
-## specific sturucture for each net ##
+|net9:MobileNetV2|20    |91.58%      |5     |99.24%       |
+## Specific sturucture for each net ##
+Net1: sample tradion net which only has 3 linear fully connected layer.
