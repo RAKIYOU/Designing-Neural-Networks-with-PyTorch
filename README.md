@@ -20,4 +20,4 @@ Analyse how the structure of a network affects its prediction accuracy and how i
 |CNN3        |20    |88.00%      |5     |98.19%       |
 |ResNet18    |50    |93.62%      |10    |99.24%       |
 |Alexnet     |100   |95.31%      |25    |99.49%       |
-|MobleNet    |20    |0.9158%     |5     |99.24%       |
+|MobleNet    |20    |91.58%      |5     |99.24%       |
