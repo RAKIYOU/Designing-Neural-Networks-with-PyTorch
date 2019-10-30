@@ -21,3 +21,4 @@ Analyse how the structure of a network affects its prediction accuracy and how i
 |net7:ResNet18   |50    |93.62%      |10    |99.24%       |
 |net8:Alexnet    |100   |95.31%      |25    |99.49%       |
 |net9:MobleNet   |20    |91.58%      |5     |99.24%       |
+## specific sturucture for each net ##
