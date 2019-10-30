@@ -29,3 +29,5 @@ net4: C3_2F which has 3 convlutional layers followed by 2 linear fully connected
 net5: C3_2F which has 4 convlutional layers followed by 2 linear fully connected layer.  
 net6: C1_B_2F which has 1 convlutional layer, 1 BasicBlock and 2 linear fully connected layer.  
 net7: ResNet18, plaese find more imoformation here about ResNet18 [here](https://arxiv.org/pdf/1512.03385.pdf).  
+net8: Alexnet, plaese find more imoformation here about ResNet18 [here](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf).  
+net9:MobileNetV2, plaese find more imoformation here about ResNet18 [here](https://arxiv.org/pdf/1801.04381.pdf).  
