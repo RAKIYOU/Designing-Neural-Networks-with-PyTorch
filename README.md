@@ -28,7 +28,7 @@ Note: for a fair comparison, we use same optimizer (SGD, lr=0.001, momentum=0.9)
 ## Conclusion ##
 (1) Different neural networks have different numbers of parameters, then the training time for a single epoch could be different.   
 (2) For small datasets (such as MNIST), a simple CNN can achieve high classification accuracy. Therefore there may be  
-    no need to use a large neural network. (Using 1,000 samples to train LeNet 100 epochs takes less time than training ResNet18 25 epochs, but the 
+  &nbsp; no need to use a large neural network. (Using 1,000 samples to train LeNet 100 epochs takes less time than training ResNet18 25 epochs, but the 
     classification accuracies obtained by both are similar.)     
 (3) For net3 and net4 under the same training conditions, as the networks get deeper, the classification accuracy decreases.    
 (4) We introduced the basic block from ResNet into net 6, and the training time for an epoch is much longer in comparison to net3 and net4.     
