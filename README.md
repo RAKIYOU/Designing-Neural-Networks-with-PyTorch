@@ -10,17 +10,17 @@ Analyse how the structure of a network affects its prediction accuracy and how i
 > * NVIDIA GeForce GTX 1080
 > * PyTorch 1.0.1
 ## Results ##
-|Nets            |epochs|1000 samples|epochs|50000 samples|
-|:--------------:|:----:|:----------:|:----:|:-----------:|
-|net1:2FC_512    |100   |80.48%      |25    |97.71%       | 
-|net2:3FC_128    |100   |77.41%      |25    |88.00%       |
-|net3:LeNet      |100   |93.01%      |25    |91.53%       |
-|net4:C3_2F      |100   |93.12%      |25    |99.19%       |
-|net5:C4_2F      |100   |90.49%      |25    |98.80%       |       
-|net6:C1_B_2F    |20    |88.00%      |5     |98.19%       |
-|net7:ResNet18   |50    |93.62%      |10    |99.24%       |
-|net8:Alexnet    |100   |95.31%      |25    |99.49%       |
-|net9:MobileNetV2|20    |91.58%      |5     |99.24%       |
+|Nets            |epochs|1000 samples|epochs|50000 samples| parameters|
+|:--------------:|:----:|:----------:|:----:|:-----------:|:----------|
+|net1:2FC_512    |100   |80.48%      |25    |97.71%       | 407050|
+|net2:3FC_128    |100   |77.41%      |25    |88.00%       |468874|
+|net3:LeNet      |100   |93.01%      |25    |91.53%       |431080|
+|net4:C3_2F      |100   |93.12%      |25    |99.19%       |451180|
+|net5:C4_2F      |100   |90.49%      |25    |98.80%       |  471280|     
+|net6:C1_B_2F    |20    |88.00%      |5     |98.19%       |380274694|
+|net7:ResNet18   |50    |93.62%      |10    |99.24%       |11175370|
+|net8:Alexnet    |100   |95.31%      |25    |99.49%       |57029322|
+|net9:MobileNetV2|20    |91.58%      |5     |99.24%       |2236106|
 ## Specific structure for each net ##
 net1: sample tradional net which only has 2 linear fully connected layer.    
 ```
