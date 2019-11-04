@@ -22,7 +22,13 @@ Analyse how the structure of a network affects its prediction accuracy and how i
 |net8:Alexnet    |100   |95.31%      |25    |99.49%       |
 |net9:MobileNetV2|20    |91.58%      |5     |99.24%       |
 ## Specific structure for each net ##
-net1: sample tradional net which only has 2 linear fully connected layer.  
+net1: sample tradional net which only has 2 linear fully connected layer.    
+simple_network(  
+  (relu): ReLU()  
+  (dropout1): Dropout(p=0.2, inplace=False)  
+  (fc1): Linear(in_features=784, out_features=512, bias=True)  
+  (fc2): Linear(in_features=512, out_features=10, bias=True)  
+)    
 net2: sample tradional net which only has 3 linear fully connected layer.  
 net3: LeNet which has 2 convlutional layers followed by 2 linear fully connected layer.  
 net4: C3_2F which has 3 convlutional layers followed by 2 linear fully connected layer.  
