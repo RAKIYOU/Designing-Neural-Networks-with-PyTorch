@@ -23,13 +23,16 @@ Analyse how the structure of a network affects its prediction accuracy and how i
 |net9:MobileNetV2|20    |91.58%      |5     |99.24%       |
 ## Specific structure for each net ##
 net1: sample tradional net which only has 2 linear fully connected layer.    
+```
 net1(  
   (relu): ReLU()  
   (dropout1): Dropout(p=0.2, inplace=False)  
   (fc1): Linear(in_features=784, out_features=512, bias=True)  
   (fc2): Linear(in_features=512, out_features=10, bias=True)  
 )    
+```
 net2: sample tradional net which only has 3 linear fully connected layer.   
+```
 net2(  
   (relu): ReLU()  
   (dropout1): Dropout(p=0.2, inplace=False)  
@@ -37,7 +40,9 @@ net2(
   (fc2): Linear(in_features=512, out_features=128, bias=True)  
   (fc3): Linear(in_features=128, out_features=10, bias=True)  
 )  
+```
 net3: LeNet which has 2 convlutional layers followed by 2 linear fully connected layer.  
+```
 LeNet(  
   (conv1): Conv2d(1, 20, kernel_size=(5, 5), stride=(1, 1))  
   (conv2): Conv2d(20, 50, kernel_size=(5, 5), stride=(1, 1))  
@@ -45,9 +50,10 @@ LeNet(
   (fc2): Linear(in_features=500, out_features=10, bias=True)  
   (relu): ReLU()   
 ) 
-
+```
 
 net4: C3_2F which has 3 convlutional layers followed by 2 linear fully connected layer.  
+```
 net4(  
   (conv1): Conv2d(1, 20, kernel_size=(5, 5), stride=(1, 1))  
   (conv1_drop): Dropout2d(p=0.5, inplace=False)  
@@ -59,7 +65,9 @@ net4(
   (fc2): Linear(in_features=500, out_features=10, bias=True)  
   (relu): ReLU()  
 )  
+```
 net5: C3_2F which has 4 convlutional layers followed by 2 linear fully connected layer.  
+```
 net5(  
   (conv1): Conv2d(1, 20, kernel_size=(5, 5), stride=(1, 1))  
   (conv1_drop): Dropout2d(p=0.5, inplace=False)  
@@ -72,7 +80,9 @@ net5(
   (fc2): Linear(in_features=500, out_features=10, bias=True)  
   (relu): ReLU()  
 )  
+```
 net6: C1_B_2F which has 1 convlutional layer, 1 BasicBlock and 2 linear fully connected layer. 
+```
 net6(  
   (conv1): Conv2d(1, 64, kernel_size=(7, 7), stride=(2, 2))  
   (conv2): BasicBlock(  
@@ -85,7 +95,9 @@ net6(
   (fc1): Linear(in_features=760384, out_features=500, bias=True)  
   (fc2): Linear(in_features=500, out_features=10, bias=True)  
 )  
+```
 net7: ResNet18, plaese find more imoformation here about ResNet18 [here](https://arxiv.org/pdf/1512.03385.pdf).    
+```
 ResNet(  
   (conv1): Conv2d(1, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)  
   (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)  
@@ -169,8 +181,10 @@ ResNet(
   )  
   (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))  
   (fc): Linear(in_features=512, out_features=10, bias=True)  
-)net8: Alexnet, plaese find more imoformation here about Alexnet [here](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf).  
-'''
+)  
+```
+net8: Alexnet, plaese find more imoformation here about Alexnet [here](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf).  
+```
 AlexNet(  
   (features): Sequential(  
     (0): Conv2d(1, 64, kernel_size=(11, 11), stride=(4, 4), padding=(2, 2))  
@@ -198,7 +212,7 @@ AlexNet(
     (6): Linear(in_features=4096, out_features=10, bias=True)  
   )  
 ) 
-'''
+```
 net9: MobileNetV2, plaese find more imoformation here about MobileNetV2 [here](https://arxiv.org/pdf/1801.04381.pdf).  
 ## what I found ##
 (1) Different neural networks have different numbers of parameters, then the training time for a single epoch could be >>different.   
