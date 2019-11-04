@@ -11,7 +11,7 @@ Analyse how the structure of a network affects its prediction accuracy and how i
 > * PyTorch 1.0.1
 ## Results ##
 |Nets            |epochs|1000 samples|epochs|50000 samples| parameters|
-|:--------------:|:----:|:----------:|:----:|:-----------:|:----------|
+|:--------------:|:----:|:----------:|:----:|:-----------:|:----------:|
 |net1:2FC_512    |100   |80.48%      |25    |97.71%       | 407050|
 |net2:3FC_128    |100   |77.41%      |25    |88.00%       |468874|
 |net3:LeNet      |100   |93.01%      |25    |91.53%       |431080|
