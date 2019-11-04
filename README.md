@@ -19,7 +19,7 @@ Analyse how the structure of a network affects its prediction accuracy and how i
 |net5:C4_2F      |100   |90.49%      |25    |98.80%       |  471280|     
 |net6:C1_B_2F    |20    |88.00%      |5     |98.19%       |380274694|
 |net7:ResNet18   |50    |93.62%      |10    |99.24%       |11175370|
-|net8:ResNet34   |20    |92.02%      |5    |99.170%       |11175370|
+|net8:ResNet34   |20    |92.02%      |5    |99.170%       |   21283530     |
 |net9:Alexnet    |100   |95.31%      |25    |99.49%       |57029322|
 |net10:MobileNetV2|20    |91.58%      |5     |99.24%       |2236106|
 
