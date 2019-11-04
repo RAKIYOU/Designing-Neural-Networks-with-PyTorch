@@ -3,7 +3,7 @@
 Analyze how the structure of a network affects its prediction accuracy and how it depends on the size of training data
 ## Requirements ##
 -Test at least 10 networks that have different structures on MNIST dataset.  
--Train each modelon 1,000 and 50,000 samples until convergence, respectively.    
+-Train each model on 1,000 and 50,000 samples until convergence, respectively.    
 -Test each model on 10,000 test samples to get mean prediction accuracy.
 ## Dependencies ##
 > * Python 3.7.3
