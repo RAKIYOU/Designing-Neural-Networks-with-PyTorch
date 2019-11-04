@@ -1,10 +1,10 @@
 # A report for computer vision class #
 ## Mission ##
-Analyse how the structure of a network affects its prediction accuracy and how it depends on the size of training data
+Analyze how the structure of a network affects its prediction accuracy and how it depends on the size of training data
 ## Requirements ##
 -Test at least 10 networks that have different structures on MNIST dataset.  
 -Train each modelon 1,000 and 50,000 samples until convergence, respectively.    
--Test each model on 10000 test sampls to get mean prdiction accuracy.
+-Test each model on 10,000 test samples to get mean prediction accuracy.
 ## Dependencies ##
 > * Python 3.7.3
 > * NVIDIA GeForce GTX 1080
@@ -23,11 +23,11 @@ Analyse how the structure of a network affects its prediction accuracy and how i
 |net9:Alexnet    |100   |95.31%      |25    |99.49%       |57029322|
 |net10:MobileNetV2|20    |91.58%      |5     |99.24%       |2236106|
 
-## what I found ##
+## Conclusion ##
 (1) Different neural networks have different numbers of parameters, then the training time for a single epoch could be >>different.   
-(2) For small datasets (such as MNIST), a simple CNN can achieve high classification accuracy. So there may be no need to use a large      neural network. (Using 1000samples to train LeNet 100 epochs takes less time than training ResNet18 25 epochs, but the classification accuracies obtained by both are not much different.)     
+(2) For small datasets (such as MNIST), a simple CNN can achieve high classification accuracy. So there may be no need to use a large      neural network. (Using 1,000 samples to train LeNet 100 epochs takes less time than training ResNet18 25 epochs, but the classification accuracies obtained by both are similar.)     
 (3) For net3 and net4 under the same training conditions, as the networks get deeper, the classification accuracy decreases.    
-(4) we introduced the basic block from ResNet into net 6, and the training time for an epoch is much longer compared with net3 and net4.     
+(4) We introduced the basic block from ResNet into net 6, and the training time for an epoch is much longer in comparison to net3 and net4.     
 (5) For simple CNNs, we need to calculate the size of each feature map then we can specify the structure of the first FC layer. For ResNet, etc., it has a fixed input image size (224 * 224), and a prior resize process is needed.  
   
 
