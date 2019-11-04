@@ -36,7 +36,7 @@ Note: for a fair comparison, we use same optimizer (SGD, lr=0.001, momentum=0.9)
 
 
 ## Specific structure for each net ##
-net1: sample tradional net which only has 2 linear fully connected layer.    
+net1: sample tradional net which only has 2 linear fully connected layers.    
 ```
 net1(  
   (relu): ReLU()  
@@ -45,7 +45,7 @@ net1(
   (fc2): Linear(in_features=512, out_features=10, bias=True)  
 )    
 ```
-net2: sample tradional net which only has 3 linear fully connected layer.   
+net2: sample tradional net which only has 3 linear fully connected layers.   
 ```
 net2(  
   (relu): ReLU()  
@@ -55,7 +55,7 @@ net2(
   (fc3): Linear(in_features=128, out_features=10, bias=True)  
 )  
 ```
-net3: LeNet which has 2 convlutional layers followed by 2 linear fully connected layer.  
+net3: LeNet which has 2 convlutional layers followed by 2 linear fully connected layers.  
 ```
 LeNet(  
   (conv1): Conv2d(1, 20, kernel_size=(5, 5), stride=(1, 1))  
@@ -66,7 +66,7 @@ LeNet(
 ) 
 ```
 
-net4: C3_2F which has 3 convlutional layers followed by 2 linear fully connected layer.  
+net4: C3_2F which has 3 convlutional layers followed by 2 linear fully connected layers.  
 ```
 net4(  
   (conv1): Conv2d(1, 20, kernel_size=(5, 5), stride=(1, 1))  
@@ -80,7 +80,7 @@ net4(
   (relu): ReLU()  
 )  
 ```
-net5: C3_2F which has 4 convlutional layers followed by 2 linear fully connected layer.  
+net5: C3_2F which has 4 convlutional layers followed by 2 linear fully connected layers.  
 ```
 net5(  
   (conv1): Conv2d(1, 20, kernel_size=(5, 5), stride=(1, 1))  
@@ -95,7 +95,7 @@ net5(
   (relu): ReLU()  
 )  
 ```
-net6: C1_B_2F which has 1 convlutional layer, 1 BasicBlock and 2 linear fully connected layer. 
+net6: C1_B_2F which has 1 convlutional layer, 1 BasicBlock and 2 linear fully connected layers. 
 ```
 net6(  
   (conv1): Conv2d(1, 64, kernel_size=(7, 7), stride=(2, 2))  
@@ -342,7 +342,7 @@ ResNet(
 )
 ```
 
-net9: Alexnet, plaese find more imoformation here about Alexnet [here](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf).  
+net9: Alexnet, plaese find more imoformation here about Alexnet[here](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf).  
 ```
 AlexNet(  
   (features): Sequential(  
@@ -372,7 +372,7 @@ AlexNet(
   )  
 ) 
 ```
-net10: MobileNetV2, plaese find more imoformation here about MobileNetV2 [here](https://arxiv.org/pdf/1801.04381.pdf).  
+net10: MobileNetV2, plaese find more imoformation here about MobileNetV2[here](https://arxiv.org/pdf/1801.04381.pdf).  
 
 ```
 MobileNetV2(
