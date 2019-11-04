@@ -342,7 +342,7 @@ ResNet(
 )
 ```
 
-net9: Alexnet, plaese find more imoformation here about Alexnet[here](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf).  
+net9: Alexnet, plaese find more imoformation here about Alexnet [here](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf).  
 ```
 AlexNet(  
   (features): Sequential(  
@@ -372,7 +372,7 @@ AlexNet(
   )  
 ) 
 ```
-net10: MobileNetV2, plaese find more imoformation here about MobileNetV2[here](https://arxiv.org/pdf/1801.04381.pdf).  
+net10: MobileNetV2, plaese find more imoformation here about MobileNetV2 [here](https://arxiv.org/pdf/1801.04381.pdf).  
 
 ```
 MobileNetV2(
