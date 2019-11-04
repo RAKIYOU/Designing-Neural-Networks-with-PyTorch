@@ -1,4 +1,4 @@
-# My report for computer vision class #
+# Report for computer vision class #
 ## Mission ##
 Analyze how the structure of a network affects its prediction accuracy and how it depends on the size of training data.
 ## Requirements ##
