@@ -199,7 +199,7 @@ AlexNet(
 )  
 net9: MobileNetV2, plaese find more imoformation here about MobileNetV2 [here](https://arxiv.org/pdf/1801.04381.pdf).  
 ## what I found ##
-(1) Different neural networks have different numbers of parameters, then the training time for a single epoch could be different.   
+(1) Different neural networks have different numbers of parameters, then the training time for a single epoch could be >>different.   
 (2) For small datasets (such as MNIST), a simple CNN can achieve high classification accuracy. So there may be no need to use a large      neural network. (Using 1000samples to train LeNet 100 epochs takes less time than training ResNet18 25 epochs, but the classification accuracies obtained by both are not much different.)     
 (3) For net3 and net4 under the same training conditions, as the networks get deeper, the classification accuracy decreases.    
 (4) we introduced the basic block from ResNet into net 6, and the training time for an epoch is much longer compared with net3 and net4.     
