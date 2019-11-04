@@ -169,7 +169,7 @@ ResNet(
   )  
   (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))  
   (fc): Linear(in_features=512, out_features=10, bias=True)  
-)net8: Alexnet, plaese find more imoformation here about ResNet18 [here](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf).  
+)net8: Alexnet, plaese find more imoformation here about Alexnet [here](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf).  
 AlexNet(  
   (features): Sequential(  
     (0): Conv2d(1, 64, kernel_size=(11, 11), stride=(4, 4), padding=(2, 2))  
@@ -197,7 +197,7 @@ AlexNet(
     (6): Linear(in_features=4096, out_features=10, bias=True)  
   )  
 )  
-net9: MobileNetV2, plaese find more imoformation here about ResNet18 [here](https://arxiv.org/pdf/1801.04381.pdf).  
+net9: MobileNetV2, plaese find more imoformation here about MobileNetV2 [here](https://arxiv.org/pdf/1801.04381.pdf).  
 ## what I found ##
 (1) Different neural networks have different numbers of parameters, then the training time for a single epoch could be different.   
 (2) For small datasets (such as MNIST), a simple CNN can achieve high classification accuracy. So there may be no need to use a large      neural network. (Using 1000samples to train LeNet 100 epochs takes less time than training ResNet18 25 epochs, but the classification accuracies obtained by both are not much different.)     
