@@ -26,13 +26,17 @@ Analyze how the structure of a network affects its prediction accuracy and how i
 Note: for a fair comparison, we use same optimizer (SGD, lr=0.001, momentum=0.9).
 
 ## Conclusion ##
-(1) Different neural networks have different numbers of parameters, then the training time for a single epoch could be different.   
+(1) Different neural networks have different numbers of parameters, then the training time for a single epoch could be  
+  &emsp; different.      
 (2) For small datasets (such as MNIST), a simple CNN can achieve high classification accuracy. Therefore there may be  
   &emsp; no need to use a large neural network. (Using 1,000 samples to train LeNet 100 epochs takes less time than training 
   &emsp; ResNet18 25 epochs, but the classification accuracies obtained by both are similar.)     
-(3) For net3 and net4 under the same training conditions, as the networks get deeper, the classification accuracy decreases.    
-(4) We introduced the basic block from ResNet into net 6, and the training time for an epoch is much longer in comparison to net3 and net4.     
-(5) For simple CNNs, we need to calculate the size of each feature map then we can specify the structure of the first FC layer. For ResNet, etc., it has a fixed input image size (224 * 224), and a prior resize process is needed.  
+(3) For net3 and net4 under the same training conditions, as the networks get deeper, the classification accuracy  
+  &emsp; decreases.    
+(4) We introduced the basic block from ResNet into net 6, and the training time for an epoch is much longer in  
+  &emsp; comparison to net3 and net4.     
+(5) For simple CNNs, we need to calculate the size of each feature map then we can specify the structure of the first FC  
+  &emsp; layer. For ResNet, etc., it has a fixed input image size (224 * 224), and a prior resize process is needed.  
   
 
 
