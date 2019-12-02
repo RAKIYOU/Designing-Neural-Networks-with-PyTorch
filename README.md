@@ -1,4 +1,4 @@
-# Report for computer vision class #
+# Designing Neural Networks with PyTorch #
 ## Mission ##
 Analyze how the structure of a network affects its prediction accuracy and how it depends on the size of training data.
 ## Requirements ##
